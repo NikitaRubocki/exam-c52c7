@@ -1,9 +1,9 @@
-require_relative 'pannier'
 
 class RoadBike
 
   def initialize
     @pannier = 3
+    @num_panniers = 2
     @daily_rate = 15
   end
 
@@ -15,12 +15,12 @@ class RoadBike
     puts "Lubricating gears..."
   end
 
-  def pannier
-    @pannier
+  def pannier_rate
+    @pannier * num_panniers
   end
 
   def weekly_rate
-    @daily_rate * 7 + @pannier
+    @daily_rate * 7 + pannier_rate
   end
 
   def daily_rate
