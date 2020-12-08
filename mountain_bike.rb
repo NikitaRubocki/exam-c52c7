@@ -21,7 +21,7 @@ class MountainBike
   end
 
   def weekly_rate
-    @weekly_rate
+    @weekly_rate + @roll_pack
   end
 
   def daily_rate

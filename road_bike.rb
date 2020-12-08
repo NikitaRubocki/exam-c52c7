@@ -16,11 +16,11 @@ class RoadBike
   end
 
   def pannier_rate
-    @pannier * num_panniers
+    @pannier * @num_panniers
   end
 
   def weekly_rate
-    @daily_rate * 7 + pannier_rate
+    @daily_rate * 7 + pannier_rate()
   end
 
   def daily_rate
