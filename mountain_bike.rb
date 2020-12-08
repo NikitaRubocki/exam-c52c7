@@ -16,8 +16,8 @@ class MountainBike
     puts "Adjusting suspension..."
   end
 
-  def luggage
-    @luggage
+  def roll_pack
+    @roll_pack
   end
 
   def weekly_rate
