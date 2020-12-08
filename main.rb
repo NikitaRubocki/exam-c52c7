@@ -14,14 +14,9 @@ bikes = [
   MountainBike.new
 ]
 
-# pannier = 3
-# roll_pack = 1
-# tail_pack = 2
-
 total_price = 0
 bikes.each do |bike|
   total_price += bike.weekly_rate()
 end
-
 
 puts "Total price: #{total_price}"

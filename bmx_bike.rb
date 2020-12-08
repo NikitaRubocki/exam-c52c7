@@ -3,9 +3,9 @@ class BmxBike
 
   def initialize
     @tail_pack = 2
-    @weekly_rate = 70
-    @daily_rate = 20
-    @hourly_rate = 5
+    @weekly_price = 70
+    @daily_price = 20
+    @hourly_price = 5
   end
 
   def clean
@@ -21,15 +21,15 @@ class BmxBike
   end
 
   def weekly_rate
-    @weekly_rate + @tail_pack
+    @weekly_price + @tail_pack
   end
 
   def daily_rate
-    @daily_rate
+    @daily_price + @tail_pack
   end
 
   def hourly_rate
-    @hourly_rate
+    @hourly_price + @tail_pack
   end
 
 end
