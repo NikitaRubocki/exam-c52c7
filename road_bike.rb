@@ -15,8 +15,8 @@ class RoadBike
     puts "Lubricating gears..."
   end
 
-  def panniers
-    @panniers
+  def pannier
+    @pannier
   end
 
   def weekly_rate
